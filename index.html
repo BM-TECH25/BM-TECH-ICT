@@ -169,6 +169,7 @@
     </audio>
     <div class="controls">
       <button onclick="togglePlay()">⏯ تشغيل/إيقاف</button>
+      <button onclick="nextSong()">⏭ التالي</button>
     </div>
   </div>
 
@@ -189,7 +190,6 @@
     const songs = [
       {title: "الأغنية الأولى", file: "song1.mp3"},
       {title: "الأغنية الثانية", file: "song2.mp3"},
-      {title: "الأغنية الثالثة", file: "song3.mp3"}
     ];
 
     let currentSong = 0;
